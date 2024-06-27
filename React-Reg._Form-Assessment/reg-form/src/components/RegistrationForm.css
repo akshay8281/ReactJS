@@ -1,0 +1,47 @@
+body {
+    background-color: #ccd5ae;
+}
+
+.myForm {
+    background-color: #dad7cd;
+    border-radius: 18px;
+}
+
+.head-1 {
+    font-weight: 600;
+}
+
+.head-2 {
+    color: navy;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+
+.btn1,
+.btn2 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 30px;
+    border-radius: 12px;
+    background-color: navy;
+    color: white;
+}
+
+.btn1 {
+    background-color: navy;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: rgb(13, 13, 220);
+}
+
+.btn2 {
+    background-color: darkred;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: rgb(232, 9, 9);
+}
