@@ -1,0 +1,164 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.MainContainer {
+    margin: 10px auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.flex {
+    display: flex;
+}
+
+.ali {
+    align-items: center;
+}
+
+.jcs {
+    justify-content: space-between;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+/* Top Header */
+
+.navLinks li a {
+    color: #7e7e7e;
+    padding: 8px 10px;
+    font-size: 14px;
+}
+
+.headCenter {
+    color: #29a56c;
+}
+
+.contactdetail {
+    align-items: baseline;
+}
+
+.needHelp h6 {
+    font-size: 12px;
+    color: #7e7e7e;
+    margin-right: 20px;
+}
+
+.callNow {
+    color: #3bb77e;
+    margin-left: 5px;
+}
+
+.selectHead {
+    color: grey;
+    border: none;
+    font-size: 14px;
+    padding: 8px 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.selectorSection {
+    justify-content: flex-end;
+}
+
+
+/* Header Main */
+.col-50 {
+    width: 50%;
+}
+
+.col-35 {
+    width: 35%;
+}
+
+.col-65 {
+    width: 65%;
+}
+
+.logoContainer {
+    width: 180px;
+}
+
+.headerLogo {
+    width: 100%;
+}
+
+.leftBar {
+    align-items: last baseline;
+}
+
+.inputbar {
+    width: 500px;
+    height: 40px;
+    border: 1px solid green;
+}
+
+.searchBtn {
+    background-color: #3bb77e;
+    border: none;
+    padding: 7px 20px;
+}
+
+.rightBar {
+    justify-content: flex-end;
+    align-items: center;
+    align-items: baseline;
+}
+
+.vendor {
+    color: #29a56c;
+    box-shadow: 0px 0px 5px #ababab;
+    padding: 7px 20px;
+}
+
+.buySlot li {
+    margin: 5px;
+    padding: 8px 8px;
+}
+
+.buySlot li i {
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.buySlot li a {
+    color: #7e7e7e;
+}
+
+/* Header Footer */
+
+.rightHeadFooter {
+    justify-content: flex-end;
+}
+
+.marginLeft {
+    margin-left: 25px;
+}
+
+.textLinkAlign a {
+    display: inline-block;
+    color: grey;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.category {
+    background-color: #3bb77e;
+}
+
+.homeTab,
+.dealIcon {
+    color: #29a56c;
+    font-weight: 700;
+}
