@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Example 1: Highlighting a Table Row on Hover -->
+
+    <!-- <table id="myTable">
+  <tr><td>Row 1</td></tr>
+  <tr><td>Row 2</td></tr>
+  <tr><td>Row 3</td></tr>
+</table>
+
+<script>
+document.querySelectorAll('#myTable tr').forEach(row => {
+  // Add mouseover event listener
+  row.addEventListener('mouseover', () => {
+      // Change background color on MouseHover
+      row.style.backgroundColor = 'red';
+      row.style.color = 'white';
+      row.style.cursor = "pointer";
+  });
+  // Add Mouse Out event listener
+  row.addEventListener('mouseout', () => {
+    // Reset background color
+    row.style.backgroundColor = '';
+  });
+});
+</script> -->
+
+    <!-- Example 2: Changing Text Color on Button Click -->
+
+    <!-- <div>
+        <button id="myButton">Change Text Color</button>
+        <p id="myText">This is some text.</p>
+    </div>
+
+    <script>
+        // Btn click Event
+        document.getElementById('myButton').addEventListener('click', () => {
+            // Get the text element
+            const text = document.getElementById('myText');
+            // Change text color between red and black
+            if (text.style.color === 'red') {
+                text.style.color = 'black';
+            } else {
+                text.style.color = 'red';
+            }
+        });
+    </script> -->
+
+
+    <!-- Example 3: Displaying Input Value on Change -->
+
+    <div>
+        <input id="myInput" type="text">
+        <p id="output"></p>
+    </div>
+
+    <script>
+        // Add input event listener to input field
+        document.getElementById('myInput').addEventListener('input', () => {
+            // Get the input value
+            const value = document.getElementById('myInput').value;
+            // Display the input value
+            document.getElementById('output').textContent = value;
+        });
+
+    </script>
+</body>
+
+</html>

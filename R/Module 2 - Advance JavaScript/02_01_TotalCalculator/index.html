@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Billing Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+    <!-- Module 2 :- Advance JavaScript -->
+    <!-- Qs - 1 :- Calculate subtotal price of quantity in JavaScript? -->
+
+    <!-- HTML Code -->
+
+    <table>
+        <thead>
+            <tr>
+                <td colspan="0"><button class="add-btn" onclick="addRow('', 0, 0)">Add Item</button></td>
+            </tr>
+            <tr>
+                <td class="bill-title" colspan="6">Billing Summary</td>
+            </tr>
+            <tr>
+                <th class="bold">Sr. No</th>
+                <th class="bold">Description</th>
+                <th class="bold">Quantity</th>
+                <th class="bold">Price</th>
+                <th class="bold">Subtotal</th>
+                <th class="bold">Action</th>
+            </tr>
+        </thead>
+        <tbody id="bill-items">
+            <!-- Rows will be dynamically added here -->
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3"></td>
+                <td class="bold">Total (<i class="fa-solid fa-indian-rupee-sign"></i>)</td>
+                <td id="total" class="bold">0.00</td>
+                <td></td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
